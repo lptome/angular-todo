@@ -1,0 +1,48 @@
+.is-complete {
+  text-decoration: line-through;
+}
+
+i {
+  cursor: pointer;
+}
+
+.title {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.commands {
+  margin-left: auto;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #141414;
+}
+
+ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+.content {
+  background: #414141;
+  border-radius: 20px;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */

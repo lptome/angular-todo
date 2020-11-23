@@ -1,0 +1,15 @@
+<ul [ngClass]="setClasses()">
+  <li>
+    <div class="title">
+      {{ todo.title }}
+    </div>
+    <div class="commands">
+      <input
+        (change)="onChecked(todo)"
+        type="checkbox"
+        [checked]="todo.completed"
+      />
+      <i (click)="onDelete(todo)" class="fas fa-trash"></i>
+    </div>
+  </li>
+</ul>
